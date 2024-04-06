@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Buddy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Travel Buddy</div>
+        <button>Github</button>
+    </header>
+    <main>
+        <section class="searchSec">
+            <div class="searchContainer">
+                <div class="searchBox active">
+                    <svg width="50" height="30" viewBox="0 0 50 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M9.33863 20.8228V26.3291H15.9009V0H30.0351V26.3291H31.8649V4.36709L43.6644 8.79747V26.3291H49.0909V30H0V26.3291H6.94088V20.8228C4.10143 20.3797 1.95606 18.481 1.95606 16.2025C1.95606 14.9367 2.58705 13.7975 3.72283 12.9114C3.72283 9.68354 5.6789 7.08861 8.13975 7.08861C10.6006 7.08861 12.5567 9.68354 12.5567 12.9114C13.6925 13.7975 14.3234 14.9367 14.3234 16.2025C14.3234 18.481 12.1781 20.3797 9.33863 20.8228ZM33.821 21.0759H41.7084V23.4177H33.821V21.0759ZM33.821 17.4051H41.7084V19.8101H33.821V17.4051ZM33.821 13.7342H41.7084V16.1392H33.821V13.7342ZM33.821 10.0633H41.7084V12.4684H33.821V10.0633ZM18.2987 2.97468H21.8953V6.89873H18.2987V2.97468ZM24.0407 19.3671H27.6373V23.2278H24.0407V19.3671ZM24.0407 13.9241H27.6373V17.7848H24.0407V13.9241ZM24.0407 8.48101H27.6373V12.3418H24.0407V8.48101ZM18.2987 19.3671H21.8953V23.2278H18.2987V19.3671ZM18.2987 13.9241H21.8953V17.7848H18.2987V13.9241ZM18.2987 8.48101H21.8953V12.3418H18.2987V8.48101ZM24.0407 2.97468H27.6373V6.89873H24.0407V2.97468Z"
+                                fill="#006ED5" />
+                        </g>
+                    </svg>
+                    <input type="text" name="city" id="city" placeholder="City">
+                </div>
+                <div class="searchBox">
+                    <svg width="42" height="30" viewBox="0 0 42 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path
+                                d="M34.4476 20.9571C33.7619 20.9143 33.0762 20.7857 32.4333 20.6571C32.2191 20.6143 32.0476 20.4857 31.9191 20.2714C31.7048 19.9286 31.4905 19.5429 31.3191 19.1571C30.6333 19.2857 29.6476 19.4571 29.0476 19.6286C28.8333 19.7143 28.6191 19.5857 28.5333 19.3714L28.2762 18.6C28.1905 18.3857 28.3191 18.1286 28.5333 18.0429C29.1762 17.8714 30.0333 17.7 30.7191 17.5714C30.5905 17.0143 30.4191 16.4143 30.2905 15.7714C29.1762 15.9857 28.2762 16.2 27.7191 16.3714C27.5048 16.4143 27.2905 16.2857 27.2048 16.1143L26.9476 15.3429C26.8619 15.1286 26.9905 14.8714 27.2476 14.8286C28.0191 14.6143 29.1333 14.3571 29.9905 14.1857C29.9048 13.5 29.7762 12.8143 29.7333 12.3429C28.0619 12.7286 27.1191 12.9857 26.6048 13.1571C26.3905 13.2429 26.1762 13.1143 26.0905 12.9L25.8333 12.1286C25.7476 11.9143 25.8762 11.6571 26.0905 11.5714C26.8619 11.3143 28.0191 11.0143 29.6048 10.6714C29.5191 10.0286 29.3476 9.25714 28.8333 8.74286C28.7905 8.7 28.7905 8.7 28.7476 8.7C27.9333 8.01428 26.6048 7.84286 24.5905 8.22857C23.0476 8.52857 21.7191 7.8 20.7333 6.12857C19.9191 4.8 19.6191 3.42857 19.6191 3.38571C19.6191 3.25714 19.6191 3.17143 19.6191 3.04286C19.4476 2.18571 19.2333 0.942856 18.2476 0.385713C17.6048 0.0428563 16.8333 0.0428563 15.9333 0.385713C13.7476 1.24286 10.6191 4.71429 9.11906 6.38571L8.73334 6.81429C8.04763 7.54286 7.74763 8.27143 7.79049 9.04286C7.8762 10.6286 9.29049 11.9571 12.2048 14.6143C13.0191 15.3857 13.9619 16.2 14.9905 17.1857C16.6191 18.7286 18.5476 20.6143 20.4333 22.4143C20.9905 22.9714 23.8191 25.6286 26.1762 27.9C26.5191 28.2 26.8191 28.5429 27.1619 28.8429C27.8476 29.4857 28.7048 29.8286 29.6476 29.8714C30.1191 29.8714 30.5476 29.8714 30.9333 29.8714C31.4048 29.8714 31.7905 29.8714 32.1333 29.8714C34.9191 29.8714 38.7762 29.2714 40.4476 27.5143C41.0476 26.8714 41.3905 26.0571 41.3048 25.2C41.0476 21.6 38.5619 21.3429 34.4476 20.9571ZM39.0333 26.2286C37.8762 27.4286 34.6619 27.9857 32.0905 27.9857C31.4905 27.9857 30.7191 27.9857 29.8191 27.9429C29.2191 27.9429 28.6191 27.6857 28.1905 27.2571C25.6191 24.8143 22.5333 21.9 21.6762 21.0857L21.6333 21.0429C19.7905 19.2429 17.8619 17.3571 16.2762 15.8571C15.5048 15.1286 14.8191 14.4857 14.1762 13.8857L13.4905 13.2429C11.3048 11.2286 9.71906 9.81429 9.6762 8.95714C9.6762 8.87143 9.63334 8.61429 10.1476 8.1L10.6191 7.58571C12.3333 9.3 17.4333 14.2714 19.9191 16.6714C20.8191 17.5286 22.9191 19.7143 22.9191 19.7143C24.4191 21.2571 27.5476 24.6 28.9619 25.5857C29.4762 25.9714 30.0333 26.2714 30.6762 26.2714C32.4762 26.2714 33.9762 26.1857 35.3048 25.9714C37.1476 25.7143 38.5191 25.3286 39.4191 24.8571C39.4619 24.9857 39.4619 25.1143 39.4619 25.2857C39.4191 25.6286 39.3333 25.9286 39.0333 26.2286Z"
+                                fill="#676767" />
+                            <path
+                                d="M18.3762 25.5H11.0905C10.4905 25.5 9.9762 25.9714 9.9762 26.6143C9.9762 27.2143 10.4476 27.7286 11.0905 27.7286H18.3762C18.9762 27.7286 19.4905 27.2571 19.4905 26.6143C19.4905 25.9714 18.9762 25.5 18.3762 25.5Z"
+                                fill="#676767" />
+                            <path
+                                d="M14.7333 22.0714C14.7333 21.4714 14.2619 20.9571 13.6191 20.9571H6.33334C5.73334 20.9571 5.21906 21.4286 5.21906 22.0714C5.21906 22.6714 5.69049 23.1857 6.33334 23.1857H13.6191C14.2619 23.1857 14.7333 22.6714 14.7333 22.0714Z"
+                                fill="#676767" />
+                            <path
+                                d="M10.0191 17.5714C10.0191 16.9714 9.54763 16.4571 8.90477 16.4571H1.61906C1.01906 16.4571 0.504772 16.9286 0.504772 17.5714C0.504772 18.1714 0.976201 18.6857 1.61906 18.6857H8.90477C9.50477 18.6429 10.0191 18.1714 10.0191 17.5714Z"
+                                fill="#676767" />
+                        </g>
+                    </svg>
+
+                    <input type="text" name="activity" id="activity" placeholder="Activity">
+                </div>
+                <div class="searchBox">
+                    <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path
+                                d="M30.1039 25.06C30.0385 24.8386 29.922 24.6357 29.7636 24.4678C29.6052 24.2999 29.4095 24.1716 29.1924 24.0934C28.8256 23.9574 28.4202 23.9701 28.0627 24.1288L23.1267 25.4993L18.6666 25.5L17.1666 25L20.7105 22.8901C20.8918 22.8146 21.0562 22.7037 21.1948 22.5645C21.3333 22.4254 21.4432 22.2603 21.5179 22.0787C21.5927 21.8971 21.631 21.7026 21.6306 21.5062C21.6302 21.3099 21.5911 21.1155 21.5156 20.9342C21.4401 20.7529 21.3296 20.5883 21.1905 20.4497C21.0513 20.3112 20.8862 20.2014 20.7047 20.1266C20.5231 20.0518 20.3286 20.0135 20.1322 20.0139C19.9358 20.0143 19.7414 20.0534 19.5602 20.1289L19.5552 20.1304L19.5512 20.1321L15.1666 21.5C14.3847 21.1376 13.5278 20.9662 12.6666 21C11.9576 20.9926 11.2594 21.1745 10.6441 21.5269C10.0289 21.8794 9.51882 22.3896 9.1666 23.005V29.4879L18.4872 29.9784C18.5886 29.9838 18.6902 29.9814 18.7913 29.9713L23.455 29.5049C23.5677 29.4936 23.6777 29.4633 23.7802 29.4152L29.0389 26.9478C29.2352 26.8978 29.4193 26.8085 29.5802 26.6854C29.741 26.5623 29.8752 26.4079 29.9748 26.2314C30.0743 26.055 30.137 25.8603 30.1592 25.6589C30.1814 25.4576 30.1626 25.2539 30.1039 25.06Z"
+                                fill="#676767" />
+                            <path d="M5.16661 21H1.16663V30H5.16661V21Z" fill="#676767" />
+                            <path d="M8.16662 21H6.16663V30H8.16662V21Z" fill="#676767" />
+                            <path
+                                d="M16.1666 13.9949C16.0066 14.1145 15.8397 14.2244 15.6666 14.3241V16.5C15.6666 16.6326 15.7193 16.7598 15.813 16.8536C15.9068 16.9474 16.034 17 16.1666 17C16.2992 17 16.4264 16.9474 16.5201 16.8536C16.6139 16.7598 16.6666 16.6326 16.6666 16.5V14.322C16.4935 14.2231 16.3265 14.1139 16.1666 13.9949Z"
+                                fill="#676767" />
+                            <path
+                                d="M6.73596 12.0591L6.66662 12.0262L6.59729 12.0591C6.45682 12.1256 6.31308 12.1849 6.16663 12.2369V15C6.16663 15.1327 6.2193 15.2598 6.31307 15.3536C6.40684 15.4474 6.53402 15.5 6.66662 15.5C6.79923 15.5 6.92641 15.4474 7.02018 15.3536C7.11394 15.2598 7.16662 15.1327 7.16662 15V12.2369C7.02017 12.1849 6.87643 12.1256 6.73596 12.0591Z"
+                                fill="#676767" />
+                            <path
+                                d="M25.5972 12.0591L25.6666 12.0262L25.7359 12.0591C25.8764 12.1256 26.0201 12.1849 26.1666 12.2369V15C26.1666 15.1327 26.1139 15.2598 26.0201 15.3536C25.9263 15.4474 25.7992 15.5 25.6666 15.5C25.534 15.5 25.4068 15.4474 25.313 15.3536C25.2192 15.2598 25.1666 15.1327 25.1666 15V12.2369C25.313 12.1849 25.4568 12.1256 25.5972 12.0591Z"
+                                fill="#676767" />
+                            <path
+                                d="M7.1666 11.1568C7.55152 11.3397 7.96665 11.4507 8.39151 11.4843C8.11881 10.6059 8.09359 9.66932 8.31863 8.77755C8.54367 7.88577 9.01026 7.07331 9.6671 6.42951C9.68317 5.56607 9.97877 4.73112 10.5096 4.04991C10.3632 3.61403 10.119 3.21743 9.79563 2.89052C9.47229 2.56361 9.0784 2.31506 8.64415 2.16391C8.5589 1.53577 8.23823 0.963457 7.74702 0.562779C7.25581 0.1621 6.63073 -0.0370279 5.99827 0.00568619C5.36581 0.0484003 4.77319 0.329767 4.34031 0.792855C3.90743 1.25594 3.66663 1.86617 3.66661 2.50008C3.6672 2.64867 3.68241 2.79685 3.71202 2.94246C3.35751 3.38405 3.16502 3.93379 3.16661 4.50007C3.16664 4.60883 3.17464 4.71743 3.19054 4.82502C2.77144 5.01832 2.39473 5.29263 2.08212 5.63216C1.76951 5.97169 1.52717 6.36972 1.36907 6.80332C1.21097 7.23693 1.14023 7.69753 1.16093 8.15859C1.18163 8.61965 1.29336 9.07206 1.48969 9.48975C1.68601 9.90744 1.96304 10.2822 2.30483 10.5923C2.64661 10.9024 3.04639 11.1419 3.48112 11.2969C3.91586 11.4518 4.37696 11.5192 4.83786 11.4952C5.29876 11.4711 5.75035 11.3561 6.16661 11.1568V8.83862L3.98107 7.96442L4.35216 7.03571L6.16661 7.76148V4.00007H7.1666V5.56583L7.88926 5.08406L8.44394 5.91607L7.1666 6.76765V11.1568Z"
+                                fill="#676767" />
+                            <path
+                                d="M21.6417 6.85944C21.658 6.74034 21.6663 6.62028 21.6666 6.50007C21.6665 5.87936 21.4736 5.27401 21.1146 4.76771C20.7555 4.26141 20.248 3.87919 19.6622 3.6739C19.6651 3.6158 19.6666 3.55769 19.6666 3.50007C19.6666 2.57182 19.2978 1.68158 18.6415 1.02521C17.9851 0.368832 17.0948 8.39233e-05 16.1666 8.39233e-05C15.2383 8.39233e-05 14.3481 0.368832 13.6917 1.02521C13.0353 1.68158 12.6666 2.57182 12.6666 3.50007C12.6666 3.55769 12.6681 3.6158 12.6712 3.6739C12.0854 3.87914 11.5778 4.26134 11.2187 4.76764C10.8596 5.27394 10.6666 5.87933 10.6666 6.50007C10.6667 6.62044 10.675 6.74066 10.6913 6.85993C10.2771 7.18547 9.93136 7.58966 9.67394 8.04928C9.41652 8.5089 9.2525 9.01487 9.19131 9.5381C9.13011 10.0613 9.17295 10.5915 9.31736 11.0981C9.46177 11.6047 9.7049 12.0778 10.0328 12.4901C10.3606 12.9024 10.7668 13.2459 11.2279 13.5007C11.6889 13.7555 12.1958 13.9167 12.7194 13.9749C13.2429 14.0331 13.7729 13.9873 14.2786 13.84C14.7844 13.6928 15.2561 13.4469 15.6666 13.1167V10.8388L13.4808 9.96443L13.8524 9.03572L15.6666 9.76138V6.80914L13.943 5.94733L14.3902 5.0528L15.6666 5.69099V4.00007H16.6666V7.76142L18.481 7.03571L18.8521 7.96442L16.6666 8.83871V13.1167C17.3736 13.6897 18.2565 14.0017 19.1666 14C19.9979 14.0003 20.8087 13.7414 21.4861 13.2594C22.1634 12.7774 22.6738 12.0963 22.946 11.3108C23.2183 10.5253 23.239 9.67449 23.0052 8.87669C22.7714 8.07888 22.2948 7.37377 21.6417 6.85944Z"
+                                fill="#676767" />
+                            <path
+                                d="M29.1426 4.82502C29.1585 4.71743 29.1665 4.60883 29.1665 4.50007C29.1681 3.93379 28.9756 3.38405 28.6211 2.94246C28.6507 2.79685 28.666 2.64867 28.6665 2.50008C28.6665 1.86618 28.4257 1.25597 27.9928 0.792894C27.56 0.329818 26.9673 0.0484593 26.3349 0.00574393C25.7024 -0.0369714 25.0774 0.162146 24.5862 0.56281C24.095 0.963473 23.7743 1.53577 23.689 2.1639C23.2548 2.31506 22.8609 2.56361 22.5376 2.89051C22.2143 3.21741 21.9701 3.61398 21.8237 4.04985C22.3544 4.7311 22.65 5.56606 22.6661 6.42951C23.3229 7.07331 23.7895 7.88577 24.0145 8.77755C24.2396 9.66933 24.2143 10.6059 23.9416 11.4843C24.3665 11.4507 24.7816 11.3397 25.1666 11.1568V6.76764L23.8892 5.91607L24.4439 5.08407L25.1666 5.56583V4.00007H26.1666V7.76148L27.981 7.03571L28.3521 7.96442L26.1666 8.83862V11.1568C26.5826 11.3545 27.0336 11.4681 27.4937 11.4911C27.9537 11.514 28.4138 11.4459 28.8475 11.2906C29.2812 11.1353 29.6799 10.8959 30.0208 10.5861C30.3617 10.2763 30.638 9.90217 30.834 9.48528C31.0299 9.0684 31.1416 8.61691 31.1626 8.15675C31.1836 7.69659 31.1135 7.23681 30.9564 6.80381C30.7992 6.3708 30.5581 5.9731 30.2468 5.63352C29.9356 5.29395 29.5603 5.01919 29.1426 4.82502Z"
+                                fill="#676767" />
+                        </g>
+                    </svg>
+
+                    <input type="text" name="interest" id="interest" placeholder="Interest">
+                </div>
+                <button>Search</button>
+            </div>
+        </section>
+        <section>
+            <div class="box">
+                <div class="popularCityBox">
+                    <p class="title">Popular Cities</p>
+                    <div class="pcBox">
+                        <!-- <div class="pcCard">
+                            <p class="placeName f4">Ranchi</p>
+                            <img src="assets/t3.png" alt="" class="pclImg">
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="popularVisitBox">
+                    <p class="title pvt">Popular Places to Visit</p>
+                    <div class="pvBox">
+                        <!-- <div class="pvCard">
+                            <img src="assets/img1.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Taj Mahal</p>
+                                    <p class="address">Agra, Uttar Pradesh</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img2.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Jim Corbet National Park</p>
+                                    <p class="address">Agra, Uttar Pradesh</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img3.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Lotus Temple</p>
+                                    <p class="address">New Delhi, Delhi</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img3.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Lotus Temple</p>
+                                    <p class="address">New Delhi, Delhi</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img1.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Taj Mahal</p>
+                                    <p class="address">Agra, Uttar Pradesh</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img2.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Jim Corbet National Park</p>
+                                    <p class="address">Agra, Uttar Pradesh</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img3.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Lotus Temple</p>
+                                    <p class="address">New Delhi, Delhi</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img3.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Lotus Temple</p>
+                                    <p class="address">New Delhi, Delhi</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img1.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Taj Mahal</p>
+                                    <p class="address">Agra, Uttar Pradesh</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img2.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Jim Corbet National Park</p>
+                                    <p class="address">Agra, Uttar Pradesh</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img3.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Lotus Temple</p>
+                                    <p class="address">New Delhi, Delhi</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>
+                        <div class="pvCard">
+                            <img src="assets/img3.png" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">Lotus Temple</p>
+                                    <p class="address">New Delhi, Delhi</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script>
+        const SP_API_KEYS = ["ik2DO7MCeDQS_M6XPizhZyto3FoQ_ELhcwQ6iS0ydSE", "JcQQ-Mx43eh9Mb9rC4e87lBzIwkEHekgQaKWHbtr3eg"];
+
+        const uttarakhandCities = {
+            Almora: ['Kasar Devi Temple', 'Lal Bazaar', 'Dwarahat Village', 'Gobind Vallabh Pant Museum'],
+            Dehradun: ["Robber's Cave", 'Sahastradhara', 'Mindrolling Monastery', 'Lacchiwala', 'Har Ki Dun', 'Tapovan Temple'],
+            Haldwani: ['Binsar Wildlife Sanctuary', 'Kainchi Dham', 'Naina Devi Temple', 'Naukuchiatal Lake'],
+            Haridwar: ['Har Ki Pauri', 'Chandi Devi Temple', 'Mansa Devi Temple', 'Bharat Mata Mandir'],
+            Joshimath: ['Auli', 'Nanda Devi National Park', 'Valley of Flowers', 'Badrinath Temple'],
+            Kashipur: ['Garjiya Devi Temple', 'Corbett Falls', 'Jim Corbett National Park', 'Dhangarhi Museum'],
+            Khatima: ['Purnagiri Temple', 'Gangolihat', 'Champawat', 'Nainital'],
+            Kotdwar: ['Sidhbali Temple', 'Kanvashram', 'Durga Devi Temple', 'Durga Devi Temple'],
+            Mussoorie: ['Kempty Falls', 'Gun Hill', 'Mall Road', 'Lal Tibba'],
+            Nainital: ['Naini Lake', 'Naina Devi Temple', 'Snow View Point', 'Tiffin Top'],
+            Pantnagar: ['Gaula River', 'Pantnagar University', 'Giri Sarovar', 'Corbett Museum'],
+            Pauri: ['Kyunkaleshwar Mahadev Temple', 'Jwalpa Devi Temple', 'Kandoliya Temple', 'Doodhatoli'],
+            Purola: ['Har Ki Dun', 'Kedarkantha Peak', 'Rupin Pass', 'Mori'],
+            Ramnagar: ['Jim Corbett National Park', 'Garjiya Devi Temple', 'Corbett Falls', 'Dhangarhi Museum'],
+            Ranikhet: ['Jhula Devi Temple', 'Mankameshwar Temple', 'Chaubatia Gardens', 'Haidakhan Babaji Temple'],
+            Rishikesh: ['Laxman Jhula', 'Triveni Ghat', 'Neelkanth Mahadev Temple', 'The Beatles Ashram'],
+            Roorkee: ['IIT Roorkee', 'Solani Aqueduct', 'Roorkee Cantonment', 'Roorkee Group Museum & Archives'],
+            'Srinagar Garhwal': ['Kamleshwar Mahadev Temple', 'Dhari Devi Temple', 'Kanvashram', 'Kandoliya Temple'],
+            Uttarkashi: ['Vishwanath Temple', 'Nehru Institute of Mountaineering', 'Dayara Bugyal', 'Maneri Dam'],
+            'Vikas Nagar': ['Lachhiwala', 'Malsi Deer Park', 'Sahastradhara', 'Robber’s Cave']
+        };
+
+        // Get city from search query
+        const urlParams = new URLSearchParams(window.location.search);
+        const city = urlParams.get('city');
+
+        // Fill the value of the search box
+        const searchBox = document.querySelector('.searchBox input');
+        searchBox.value = city;
+
+        // Get array of all other cities except the current city
+        const otherCities = Object.keys(uttarakhandCities).filter(c => c !== city);
+
+        // Insert Popular Cities
+        const pcBox = document.querySelector('.pcBox');
+        otherCities.forEach((c) => {
+            const pcCard = `<div class="pcCard" onclick="location.href='city.html?city=${c}'">
+                            <p class="placeName f1">${c}</p>
+                            </div>`;
+
+            pcBox.insertAdjacentHTML('beforeend', pcCard);
+        });
+
+        // Insert Popular Places to Visit
+
+        async function getImageUrlFromUnsplash(query) {
+            const API_KEY = "jbuFtvjvekr-JpTVuL-hOKF6_VfbvbuIFcAlV2bWlDQ"
+            // const API_KEY = SP_API_KEYS[0];
+            // const API_KEY = SP_API_KEYS[1];
+            const url = `https://api.unsplash.com/photos/random?query=${query}&w=200&client_id=${API_KEY}`;
+            const response = await fetch(url);
+            const data = await response.json();
+            return data.urls.regular;
+        }
+
+        const popularPlaces = uttarakhandCities[city];
+        const pvBox = document.querySelector('.pvBox');
+        popularPlaces.forEach(async (place) => {
+            let imgUrl = "";
+            try {
+                imgUrl = await getImageUrlFromUnsplash("Uttarakhand");
+            }
+            catch {
+                imgUrl = "";
+            }
+            const pvCard = `<div class="pvCard">
+                            <img src="${imgUrl}" alt="" class="img">
+                            <div class="infoBox">
+                                <div>
+                                    <p class="pclName">${place}</p>
+                                    <p class="address">${city}, Uttarakhand</p>
+                                </div>
+                                <img src="assets/wl.png" class="wishList">
+                            </div>
+                        </div>`;
+
+            pvBox.insertAdjacentHTML('beforeend', pvCard);
+        });
+
+
+
+    </script>
+</body>
+
+</html>
